@@ -5,6 +5,9 @@
 * [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
 <!-- default file list end -->
 # ASPxGridView - How to customize detail buttons
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e1016/)**
+<!-- run online end -->
 
 
 <p>This sample illustrates how to solve the following issues:</p><p>1) Show detail buttons in random position (for example, on the right side of the grid)<br />
