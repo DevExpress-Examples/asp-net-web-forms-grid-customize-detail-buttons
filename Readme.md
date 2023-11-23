@@ -9,7 +9,7 @@
 **[[Run Online]](https://codecentral.devexpress.com/e1016/)**
 <!-- run online end -->
 
-This example demonstrates how to show detail buttons in random position (on the right side of the grid) and control button visibility in each row according to developer requirements (hide buttons in odd rows).
+This example demonstrates how to show detail buttons in random position (on the right side of the grid) and control button visibility in each row (hide buttons in odd rows).
 
 ![](grid-with-custom-detail-buttons.png)
 
