@@ -13,7 +13,7 @@ This example demonstrates how to show detail buttons in random position (on the 
 
 ![](grid-with-custom-detail-buttons.png)
 
-## Implementation Details
+## Files to Review
 
 * [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
 * [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
