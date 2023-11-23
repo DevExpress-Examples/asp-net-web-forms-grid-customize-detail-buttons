@@ -10,20 +10,14 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="dsMaster"
-        KeyFieldName="CategoryID">
+    <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="dsMaster" KeyFieldName="CategoryID">
         <Columns>
-            <dx:GridViewDataTextColumn FieldName="CategoryID" ReadOnly="True" VisibleIndex="0">
-                <EditFormSettings Visible="False" />
-            </dx:GridViewDataTextColumn>
-            <dx:GridViewDataTextColumn FieldName="CategoryName" VisibleIndex="1">
-            </dx:GridViewDataTextColumn>
-            <dx:GridViewDataTextColumn FieldName="Description" VisibleIndex="2">
-            </dx:GridViewDataTextColumn>
-            <dx:GridViewDataColumn VisibleIndex="3" Name="New">
+            <dx:GridViewDataTextColumn FieldName="CategoryID" />
+            <dx:GridViewDataTextColumn FieldName="CategoryName" />
+            <dx:GridViewDataTextColumn FieldName="Description" />
+            <dx:GridViewDataColumn Name="New">
                 <DataItemTemplate>
-                    <dx:ASPxImage ID="ASPxImage1" runat="server" Cursor="pointer" OnInit="ASPxImage1_Init">
-                    </dx:ASPxImage>
+                    <dx:ASPxImage ID="ASPxImage1" runat="server" Cursor="pointer" OnInit="ASPxImage1_Init" />
                 </DataItemTemplate>
             </dx:GridViewDataColumn>
         </Columns>
@@ -32,23 +26,17 @@
                 <dx:ASPxGridView ID="ASPxGridView2" runat="server" AutoGenerateColumns="False" DataSourceID="dsDetail"
                     KeyFieldName="ProductID" OnBeforePerformDataSelect="ASPxGridView2_BeforePerformDataSelect">
                     <Columns>
-                        <dx:GridViewDataTextColumn FieldName="ProductID" ReadOnly="True" VisibleIndex="0">
-                            <EditFormSettings Visible="False" />
-                        </dx:GridViewDataTextColumn>
-                        <dx:GridViewDataTextColumn FieldName="ProductName" VisibleIndex="1">
-                        </dx:GridViewDataTextColumn>
-                        <dx:GridViewDataTextColumn FieldName="CategoryID" VisibleIndex="2">
-                        </dx:GridViewDataTextColumn>
-                        <dx:GridViewDataTextColumn FieldName="UnitPrice" VisibleIndex="3">
-                        </dx:GridViewDataTextColumn>
+                        <dx:GridViewDataTextColumn FieldName="ProductID" />
+                        <dx:GridViewDataTextColumn FieldName="ProductName" />
+                        <dx:GridViewDataTextColumn FieldName="CategoryID" />
+                        <dx:GridViewDataTextColumn FieldName="UnitPrice" />
                     </Columns>
                 </dx:ASPxGridView>
             </DetailRow>
         </Templates>
         <SettingsDetail ShowDetailRow="True" ShowDetailButtons="False" />
     </dx:ASPxGridView>
-    <asp:AccessDataSource ID="dsMaster" runat="server" DataFile="~/App_Data/nwind.mdb"
-        SelectCommand="SELECT * FROM [Categories]"></asp:AccessDataSource>
+    <asp:AccessDataSource ID="dsMaster" runat="server" DataFile="~/App_Data/nwind.mdb" SelectCommand="SELECT * FROM [Categories]" />
     <asp:AccessDataSource ID="dsDetail" runat="server" DataFile="~/App_Data/nwind.mdb"
         SelectCommand="SELECT [ProductID], [ProductName], [CategoryID], [UnitPrice] FROM [Products] WHERE ([CategoryID] = ?)">
         <SelectParameters>
