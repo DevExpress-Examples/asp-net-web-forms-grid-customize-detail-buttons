@@ -1,23 +1,22 @@
 <!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128533779/13.2.12%2B)
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E1016)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
-* [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
-<!-- default file list end -->
-# ASPxGridView - How to customize detail buttons
+# Grid View for ASP.NET Web Forms - How to customize detail buttons
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/e1016/)**
 <!-- run online end -->
 
+This example demonstrates how to show detail buttons in random position (on the right side of the grid) and control button visibility in each row (hide buttons in odd rows).
 
-<p>This sample illustrates how to solve the following issues:</p><p>1) Show detail buttons in random position (for example, on the right side of the grid)<br />
-2) Show/hide the detail button in each row according to developer requirements.</p>
+![](grid-with-custom-detail-buttons.png)
 
-<br/>
+## Files to Review
 
+* [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
+* [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
 
+## Documentation
+
+* [Access Controls in Templates on the Server](https://docs.devexpress.com/AspNet/403575/common-concepts/access-controls-in-templates-on-the-server)
