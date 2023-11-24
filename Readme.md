@@ -6,7 +6,7 @@
 
 # Grid View for ASP.NET Web Forms - How to customize detail buttons
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e1016/)**
+**[[Run Online]](https://codecentral.devexpress.com/128533779/)**
 <!-- run online end -->
 
 This example demonstrates how to show detail buttons in random position (on the right side of the grid) and control button visibility in each row (hide buttons in odd rows).
